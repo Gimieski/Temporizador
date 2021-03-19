@@ -33,9 +33,3 @@ function test(dates){
 	startTimer = setInterval(function() { updateTimer(date); }, 1000);
 }
 
-
-
-
-
-//Fazer um temporizador para tal data especificada.Estou no dia 17 e qeuro ir para o 18, fazer um calculo de quanto vai demorar
-// Pega o dia atual e diminui pelo que oi informado
