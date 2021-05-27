@@ -23,6 +23,8 @@ function test(dates){
     const res=document.querySelector("#test");
 
     if(now>=date){
+      res.innerHTML="Insira uma Data válida";
+      text.innerHTML=" ";
       clearInterval(startTimer);
     }else{
       const msg=`${days}:${hours}:${minutes}:${seconds}`
